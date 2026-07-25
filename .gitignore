@@ -1,0 +1,27 @@
+# Môi trường & Bí mật (Bảo mật)
+.env
+.env.*
+!.env.example
+
+# Session đăng nhập chứa cookie/auth state
+playwright/.auth/
+user.json
+
+# Thư mục phụ thuộc Node.js
+node_modules/
+
+# Kết quả chạy test & Báo cáo
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# File hệ thống macOS & IDE
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
